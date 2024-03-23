@@ -2,7 +2,7 @@ console.log("JS7 apifetch");
 
 /* function busquedaUsuarios(page=1){
 //  console.log("se activo mi boton"); //
-//   fetch(`https://reqres.in/api/users?page=${page}`)//
+//   fetch(`https://reqres.in/api/users?delay=3${page}`)//
     fetch(`https://reqres.in/api/users/23`)
     .then(response => response.json())
     .then( users=>{
